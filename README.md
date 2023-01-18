@@ -1,7 +1,8 @@
-# Clavert
+# Clavert Keyboard
 
-Clavert: Clever, clavier, vertical, avert carpal tunnels.
-It's a (pair of?) ZMK powered wireless ergonomic split keyboard, using Redox layout.
+Clavier, vertical.
+
+It's a (pair of?) ZMK powered wireless ergonomic split keyboard.
 
 ## Suggested Materials
 
@@ -27,7 +28,11 @@ This board only uses 1u keycaps because
 
 Download the STL files from `stl` directory.
 
-The case consists of two halves and a battery holder. They should be printed with the 'inside' facing build plate and with supports. Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes with two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
+The case consists of two halves and a battery holder. They should be printed with the 'inside' facing build plate and with supports. 
+
+![print orientation](image/orientation.jpeg)
+
+Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes with two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
 
 **DO NOT** mirror face half and print them because you will mirror the switch pin holes and hotswap socket holes too. The back halves are fine.
 
@@ -35,11 +40,13 @@ The case consists of two halves and a battery holder. They should be printed wit
 
 There are a lot of steep overhangs in the lower layers due to the print orientation. If your slicer supports it, it's better to print outer walls first to prevent warping which might result in small details in lower layers getting knocked off.  ("External pemimeters first" for Slic3r and forks and "Wall Ordering -> Outside to Inside" for Cura)
 
+It's best to put supprot inhibitors to the outside of the case or dial down the overhang threshold since these slopes should be printed fine without supports.
+
 ## Wiring
 
-I don't know how to design a PCB so this is a hand wired build. It's basically a Redox layout with an encoder.
+I don't know how to design a PCB so this is a hand wired build. It's basically a Redox layout with an encoder. Diagram below. 
 
-[schematic pic]
+![diagram]
 
 ## Customizing
 
