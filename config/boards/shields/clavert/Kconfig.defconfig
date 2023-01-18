@@ -1,0 +1,19 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_CLAVERT_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Clavert"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_CLAVERT_LEFT || SHIELD_CLAVERT_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif
