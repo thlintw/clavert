@@ -25,7 +25,9 @@ This board only uses 1u keycaps because
 
 ## Printing the case
 
-The case consists of two halves and a battery holder. Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes with two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
+Download the STL files from `stl` directory.
+
+The case consists of two halves and a battery holder. They should be printed with the 'inside' facing build plate and with supports. Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes with two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
 
 **DO NOT** mirror face half and print them because you will mirror the switch pin holes and hotswap socket holes too. The back halves are fine.
 
