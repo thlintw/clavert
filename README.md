@@ -1,7 +1,7 @@
 # Clavert
 
 Clavert: Clever, clavier, vertical, avert carpal tunnels.
-It's a (pair of?) ergonomic split keyboard.
+It's a (pair of?) ergonomic split keyboard, using Redox layout.
 
 ## Suggested Materials
 
@@ -16,7 +16,10 @@ Below are some of the more important materials for the build. Misc materials not
 - 18650 battery * 2
 - nice!nano v2 * 2
 
+## Printing the case
 
-## Print setting suggestions
+The case consists of two halves and a battery holder. Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes with two versions, with or without encoder. 
+
+### Print setting suggestions
 
 There are a lot of steep overhangs in the lower layers due to the print orientation. If your slicer supports it, it's better to print outer walls first to prevent warping which might result in small details in lower layers getting knocked off.  ("External pemimeters first" for Slic3r and forks and "Wall Ordering -> Outside to Inside" for Cura)
