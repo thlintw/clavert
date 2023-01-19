@@ -1,5 +1,7 @@
 # Clavert Keyboard
 
+![beauty shot](image/beautyshot.jpg)
+
 Clavier, vertical.
 
 It's a (pair of?) ZMK powered wireless ergonomic split keyboard.
@@ -55,7 +57,9 @@ You might want to make your own keymap instead of using mine(which I guess only 
 To flash nice!nanos you need only to double click reset(or quickly bridge GND and RESET twice) and it will show up as a flash drive. You can then drop the `.uf2` files that you grabbed from Github to it and it's done.
 
 Please refer to official ZMK documentations for more info.
+
 https://zmk.dev/docs/user-setup
+
 https://zmk.dev/docs/customization
 
 ## Credits
