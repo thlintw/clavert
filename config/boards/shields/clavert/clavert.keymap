@@ -58,7 +58,7 @@
     &trans   &trans &trans &kp LCTRL &trans        &trans   &trans    &trans &trans &trans        &trans &trans &trans &trans
           >;
 
-          sensor-bindings = <&inc_dec_kp UP DOWN>;
+          sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         nav_layer {
@@ -76,7 +76,7 @@
     &trans &trans &trans &trans &trans        &trans   &trans    &trans   &trans    &trans         &none    &none     &trans &trans
           >;
 
-          sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+          sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         num_layer {
