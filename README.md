@@ -14,12 +14,10 @@ Below are some of the more important materials for the build. Misc materials not
 - Kailh hotswap sockets * 70
 - 1N4148 diodes * 70
 - EVQWGD001 encoder * 1
-- 6mm x 6mm x 4mm 4 pin push button switch * 2
-- 11.5 mm x 5.5mm micro slide switch * 2
 - 18650 battery * 2
 - nice!nano v2 * 2
-- M3*8 heat set inserts * 16
-- M3*6 flat head hex screw * 16
+- M3*4 heat set inserts * 16
+- M3*6 flat head hex screw * 16 (or philips, I used hex because I have them lying around)
 
 This board only uses 1u keycaps because
 1. It's really hard to find keycap sets that come with enough 1.5u or 1.25u keys.
@@ -34,7 +32,7 @@ The case consists of two halves and a battery holder. They should be printed wit
 
 ![print orientation](image/orientation.jpeg)
 
-Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes with two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
+Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes in two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
 
 **DO NOT** mirror face half and print them because you will mirror the switch pin holes and hotswap socket holes too. The back halves are fine.
 
@@ -46,9 +44,11 @@ It's best to put supprot inhibitors to the outside of the case or dial down the 
 
 ## Wiring
 
-I don't know how to design a PCB so this is a hand wired build. It's basically a Redox layout with an encoder. Diagram below. 
+I don't know how to design a PCB so this is a hand wired build. It's basically a Redox layout with an encoder. Diagram for left hand side below. 
 
-![diagram]
+![diagram](image/diagram.png)
+
+For right hand simply mirror the columns(i.e. wire leftmost column to 10 instead of 20) and ignore the encoder. You can wire a physical reset button to GND and RESET for easy flashing/resetting. 
 
 ## Customizing
 
