@@ -1,6 +1,6 @@
 # Clavert Keyboard
 
-![beauty shot](image/beautyshot.jpg)
+![beauty shot](image/gallery/01-green.jpg)
 
 Clavier, vertical.
 
@@ -34,7 +34,7 @@ The case consists of two halves and a battery holder. They should be printed wit
 
 Currently there's no cutout for physical reset buttons and power switches because ZMK supports sending reset/bootloader signal with key press. The left side face half comes in two versions, with or without encoder. Only left side because as of writing of this readme ZMK only supports encoders on the central side. The halves and battery holders are assembled with heat set inserts and screws.
 
-**DO NOT** mirror face half and print them because you will mirror the switch pin holes and hotswap socket holes too. The back halves are fine.
+**DO NOT** mirror face half and print them because you will mirror the hotswap socket holes too. The back halves are fine.
 
 #### Print setting suggestions
 
@@ -44,11 +44,11 @@ It's best to put supprot inhibitors to the outside of the case or dial down the 
 
 ## Wiring
 
-I don't know how to design a PCB so this is a hand wired build. It's basically a Redox layout with an encoder. Diagram for left hand side below. 
+I don't know how to design a PCB so this is a hand wired build(lame I know). It's basically a Redox layout with an encoder. Diagram for left hand side below. 
 
 ![diagram](image/diagram.png)
 
-For right hand simply mirror the columns(i.e. wire leftmost column to 10 instead of 20) and ignore the encoder. You can wire a physical reset button to GND and RESET for easy flashing/resetting. 
+For right hand simply mirror the columns(i.e. wire leftmost column to 20 instead of 10) and ignore the encoder. You can wire a physical reset button to GND and RESET for easy flashing/resetting. 
 
 ## Customizing
 
@@ -67,3 +67,18 @@ https://zmk.dev/docs/customization
 - Obviously, the layout and schematics are from [Redox keyboard](https://github.com/mattdibi/redox-keyboard)
 - The design is inspired by and derived from [Redox Manuform by Fosk_LL](https://www.thingiverse.com/thing:3503380)
 - The 18650 battery holder is modefied from [this design by YXC](https://www.thingiverse.com/thing:2847497)
+
+## Gallery
+
+![gallery](image/gallery/01-blue.jpg)
+![gallery](image/gallery/02-blue.jpg)
+![gallery](image/gallery/02-green.jpg)
+![gallery](image/gallery/03-blue.jpg)
+![gallery](image/gallery/03-green.jpg)
+![gallery](image/gallery/05-blue.jpg)
+![gallery](image/gallery/04-green.jpg)
+![gallery](image/gallery/06-blue.jpg)
+![gallery](image/gallery/07-green.jpg)
+![gallery](image/gallery/08-green.jpg)
+![gallery](image/gallery/09-blue.jpg)
+![gallery](image/gallery/09-green.jpg)
