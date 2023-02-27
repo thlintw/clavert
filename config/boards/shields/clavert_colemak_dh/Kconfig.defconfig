@@ -4,7 +4,7 @@
 if SHIELD_CLAVERT_COLEMAK_DH_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Clavert Colemak DH"
+	default "ClavertColemakDH"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
