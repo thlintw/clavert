@@ -17,3 +17,7 @@ include:
     shield: clavert_left
   - board: nice_nano_v2
     shield: clavert_right
+  - board: nice_nano_v2
+    shield: clavert_colemak_dh_left
+  - board: nice_nano_v2
+    shield: clavert_colemak_dh_right

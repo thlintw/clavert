@@ -1,0 +1,11 @@
+file_format: "1"
+id: clavert_colemak_dh
+name: Clavert_colemak_dh
+type: shield
+url: https://github.com/thlintw/clavert
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - clavert_colemak_dh_left
+  - clavert_colemak_dh_right
