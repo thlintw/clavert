@@ -109,7 +109,7 @@
     &trans &none  &kp LBRC    &kp RBRC    &none  &none       &trans                     &trans &none       &bt BT_CLR  &bt BT_PRV &bt BT_NXT &none   &kp F12
     &trans &none  &kp LPAR    &kp RPAR    &none  &reset      &none                      &none  &reset      &none       &none      &none      &none   &kp C_PP
     &trans &none  &kp LBKT    &kp RBKT    &none  &bootloader &trans   &trans    &trans  &trans &bootloader &none       &none      &none      &none   &none 
-    &trans &none  &trans      &trans      &trans             &trans   &trans    &trans  &trans &trans                  &kp C_RW   &kp C_FF   &none   &none
+    &trans &none  &trans      &trans      &trans             &trans   &trans    &trans  &trans &trans                  &kp C_PREV &kp C_NEXT &none   &none
           >;
 
           sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
