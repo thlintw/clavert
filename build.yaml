@@ -14,10 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: clavert_left
+    shield: clavert_left_nice_view
   - board: nice_nano_v2
-    shield: clavert_right
-  - board: nice_nano_v2
-    shield: clavert_colemak_dh_left
-  - board: nice_nano_v2
-    shield: clavert_colemak_dh_right
+    shield: clavert_right_nice_view
