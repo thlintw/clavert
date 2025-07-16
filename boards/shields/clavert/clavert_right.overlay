@@ -21,3 +21,19 @@
 		, <&pro_micro 20 GPIO_ACTIVE_HIGH>
 		;
 };
+
+
+&spi1 {
+    status = "okay";
+    pinctrl-0 = <&spi1_default>;
+    pinctrl-names = "default";
+    cs-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
+};
+
+/ {
+    aliases {
+        nice-view-spi = &spi1;
+    };
+};
+
+nice_view_spi: &spi1 {};
