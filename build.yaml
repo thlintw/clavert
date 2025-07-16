@@ -17,3 +17,4 @@ include:
     shield: clavert_left nice_view
   - board: nice_nano_v2
     shield: clavert_right nice_view
+
