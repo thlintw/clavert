@@ -17,3 +17,6 @@ config ZMK_SPLIT
 	default y
 
 endif
+
+CONFIG_ZMK_DISPLAY=y
+CONFIG_ZMK_PM_SOFT_OFF=y
