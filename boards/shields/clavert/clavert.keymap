@@ -39,8 +39,6 @@
     &kp LSHFT    &kp Z     &kp X     &kp C     &kp V     &kp B  &lt FN DEL   &kp HOME       &kp PG_UP     &lt FN F12 &kp N    &kp M  &kp COMMA &kp DOT  &kp FSLH &sk RSHFT
     &lt NUM LEFT &kp RIGHT &kp LALT  &kp LGUI  &kp SPACE        &kp BSPC     &lt NAV END    &lt NAV PG_DN &kp DEL    &kp ENTER       &kp LBKT  &kp RBKT &kp UP   &kp DOWN
           >;
-
-          sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         mac_layer {
@@ -57,8 +55,6 @@
     &trans   &trans &trans &trans    &trans &trans &trans   &trans    &trans &trans &trans &trans &trans &trans &trans &trans
     &trans   &trans &trans &kp LCTRL &trans        &trans   &trans    &trans &trans &trans        &trans &trans &trans &trans
           >;
-
-          sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         nav_layer {
@@ -75,8 +71,6 @@
     &trans &none  &none  &none  &none  &none  &trans   &trans    &tog MAC &trans    &none &none    &none    &none     &none  &none 
     &trans &trans &trans &trans &trans        &trans   &trans    &trans   &trans    &trans         &none    &none     &trans &trans
           >;
-
-          sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         num_layer {
@@ -93,8 +87,6 @@
     &trans &none &none  &none  &none  &none  &trans   &trans    &trans  &trans &none  &kp KP_N1  &kp KP_N2    &kp KP_N3       &kp KP_ENTER &none 
     &trans &none &trans &trans &trans        &trans   &trans    &trans  &trans &trans            &kp KP_N0    &kp KP_DOT      &kp KP_ENTER &none
           >;
-
-          sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         fn_layer {
@@ -111,8 +103,6 @@
     &trans &none  &kp LBKT    &kp RBKT    &none  &bootloader &trans   &trans    &trans  &trans &bootloader &none       &none      &none      &none   &none 
     &trans &none  &trans      &trans      &trans             &trans   &trans    &trans  &trans &trans                  &kp C_PREV &kp C_NEXT &none   &none
           >;
-
-          sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
     };
   };
