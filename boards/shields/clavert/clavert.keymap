@@ -26,6 +26,7 @@
     keymap {
       compatible = "zmk,keymap";
         default_layer {
+          label = "DEF";
 // -----------------------------------------------------------------------------------------------------------------------------------------
 // | GRAVE      | 1     | 2    | 3    | 4   | 5   |                                                  | 6   | 7   | 8   | 9   | 0   | -     |
 // | TAB        | Q     | W    | E    | R   | T   | ESC      |                            | ESC      | Y   | U   | I   | O   | P   | =     |
@@ -42,6 +43,7 @@
         };
 
         mac_layer {
+          label = "MAC";
 // ------------------------------------------------------------------------------------------------------------------------------------
 // | trans | trans | trans | trans | trans | trans |                                  | trans | trans | trans | trans | trans | trans |
 // | trans | trans | trans | trans | trans | trans | trans |                  | trans | trans | trans | trans | trans | trans | trans |
@@ -58,6 +60,7 @@
         };
 
         nav_layer {
+          label = "NAV";
 // ---------------------------------------------------------------------------------------------------------------------------------
 // | none  | none  | none  | none  | none  | none |                                  | none  | HOME | INS  | PG_UP | none  | none  |
 // | trans | none  | none  | none  | none  | none | trans |                  | trans | none  | END  | UP   | PG_DN | none  | none  |
@@ -74,6 +77,7 @@
         };
 
         num_layer {
+          label = "NUM";
 // -------------------------------------------------------------------------------------------------------------------------------
 // | none  | none | none  | none  | none  | none |                                  | none  | NUMLOCK | /   | *   | -     | none |
 // | trans | none | none  | none  | none  | none | trans |                  | trans | none  | 7       | 8   | 9   | +     | none |
@@ -90,6 +94,7 @@
         };
 
         fn_layer {
+          label = "FN";
 // --------------------------------------------------------------------------------------------------------------------------------------------------
 // | none  | F1   | F2    | F3    | F4    | F5         |                                  | F6         | F7     | F8     | F9      | F10  | F11  |
 // | trans | none | {     | }     | none  | none       | trans |                  | trans | none       | BT_CLR | BT_PRV | BT_NXT  | none | F12  |
